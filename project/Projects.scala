@@ -40,7 +40,6 @@ object Projects {
   private[this] val scalaJsSettings = Seq(
     name := projectName,
     libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.8.1"),
-    persistLauncher := false,
     scalaJSStage in Global := FastOptStage
   )
 
