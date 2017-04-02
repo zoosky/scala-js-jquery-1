@@ -11,7 +11,11 @@ Generated from [TypeScript definitions](https://github.com/DefinitelyTyped/Defin
 Usage
 -----
 
-I'm working to get this project hosted. Until then, clone this repository, and run `sbt publishLocal` to install it in your local Ivy repository. 
+First, add the JCenter resolver to your build file:
+ 
+```
+resolvers += Resolver.jcenterRepo,
+```
 
 Then, add it to your SBT dependencies:
 
@@ -19,7 +23,7 @@ Then, add it to your SBT dependencies:
 libraryDependencies += "DefinitelyScala" %%% "scala-js-jquery" % "1.0"
 ```
 
-Classes and traits are available in the package `org.scalajs.jquery`.
+Classes and traits are available in the package `org.scalajs.jquery`, scaladoc is provided.
 
 License
 -------
