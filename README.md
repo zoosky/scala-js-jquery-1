@@ -20,10 +20,12 @@ resolvers += Resolver.jcenterRepo,
 Then, add it to your SBT dependencies:
 
 ```
-libraryDependencies += "DefinitelyScala" %%% "scala-js-jquery" % "1.0"
+libraryDependencies += "com.definitelyscala" %%% "scala-js-jquery" % "1.0"
 ```
 
-Classes and traits are available in the package `org.scalajs.jquery`, scaladoc is provided.
+Classes and traits are available in the package `com.definitelyscala.jquery`, scaladoc is provided.
+
+This project provides Scala.js facades. You will still need to include the JavaScript library source in your web page.
 
 License
 -------

@@ -1,4 +1,4 @@
-package org.scalajs.jquery
+package com.definitelyscala.jquery
 
 import scala.scalajs.js
 import scala.scalajs.js.|
