@@ -2,7 +2,7 @@ scala-js-jquery
 ===============
 
 [![Build Status](https://travis-ci.org/DefinitelyScala/scala-js-jquery.svg?branch=master)](https://travis-ci.org/DefinitelyScala/scala-js-jquery)
-[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.13.svg)](https://www.scala-js.org/)
+[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.15.svg)](https://www.scala-js.org/)
 
 Scala.js facades for [jQuery 1.10.x /](http://jquery.com/).
 
