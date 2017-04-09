@@ -6,88 +6,88 @@ import org.scalajs.dom.raw._
 @js.native
 trait BaseJQueryEventObject extends Event {
   /**
-     * The current DOM element within the event bubbling phase.
-     * @see { https://api.jquery.com/event.currentTarget/}
-     */
+   * The current DOM element within the event bubbling phase.
+   * @see { https://api.jquery.com/event.currentTarget/}
+   */
   /**
-     * An optional object of data passed to an event method when the current executing handler is bound.
-     * @see { https://api.jquery.com/event.data/}
-     */
+   * An optional object of data passed to an event method when the current executing handler is bound.
+   * @see { https://api.jquery.com/event.data/}
+   */
   var data: js.Any = js.native
   /**
-     * The element where the currently-called jQuery event handler was attached.
-     * @see { https://api.jquery.com/event.delegateTarget/}
-     */
+   * The element where the currently-called jQuery event handler was attached.
+   * @see { https://api.jquery.com/event.delegateTarget/}
+   */
   var delegateTarget: Element = js.native
   /**
-     * Returns whether event.preventDefault() was ever called on this event object.
-     * @see { https://api.jquery.com/event.isDefaultPrevented/}
-     */
+   * Returns whether event.preventDefault() was ever called on this event object.
+   * @see { https://api.jquery.com/event.isDefaultPrevented/}
+   */
   def isDefaultPrevented(): Boolean = js.native
   /**
-     * Returns whether event.stopImmediatePropagation() was ever called on this event object.
-     * @see { https://api.jquery.com/event.isImmediatePropagationStopped/}
-     */
+   * Returns whether event.stopImmediatePropagation() was ever called on this event object.
+   * @see { https://api.jquery.com/event.isImmediatePropagationStopped/}
+   */
   def isImmediatePropagationStopped(): Boolean = js.native
   /**
-     * Returns whether event.stopPropagation() was ever called on this event object.
-     * @see { https://api.jquery.com/event.isPropagationStopped/}
-     */
+   * Returns whether event.stopPropagation() was ever called on this event object.
+   * @see { https://api.jquery.com/event.isPropagationStopped/}
+   */
   def isPropagationStopped(): Boolean = js.native
   /**
-     * The namespace specified when the event was triggered.
-     * @see { https://api.jquery.com/event.namespace/}
-     */
+   * The namespace specified when the event was triggered.
+   * @see { https://api.jquery.com/event.namespace/}
+   */
   var namespace: String = js.native
   /**
-     * The browser's original Event object.
-     * @see { https://api.jquery.com/category/events/event-object/}
-     */
+   * The browser's original Event object.
+   * @see { https://api.jquery.com/category/events/event-object/}
+   */
   var originalEvent: Event = js.native
   /**
-     * If this method is called, the default action of the event will not be triggered.
-     * @see { https://api.jquery.com/event.preventDefault/}
-     */
+   * If this method is called, the default action of the event will not be triggered.
+   * @see { https://api.jquery.com/event.preventDefault/}
+   */
   /**
-     * The other DOM element involved in the event, if any.
-     * @see { https://api.jquery.com/event.relatedTarget/}
-     */
+   * The other DOM element involved in the event, if any.
+   * @see { https://api.jquery.com/event.relatedTarget/}
+   */
   var relatedTarget: Element = js.native
   /**
-     * The last value returned by an event handler that was triggered by this event, unless the value was undefined.
-     * @see { https://api.jquery.com/event.result/}
-     */
+   * The last value returned by an event handler that was triggered by this event, unless the value was undefined.
+   * @see { https://api.jquery.com/event.result/}
+   */
   var result: js.Any = js.native
   /**
-     * Keeps the rest of the handlers from being executed and prevents the event from bubbling up the DOM tree.
-     * @see { https://api.jquery.com/event.stopImmediatePropagation/}
-     */
+   * Keeps the rest of the handlers from being executed and prevents the event from bubbling up the DOM tree.
+   * @see { https://api.jquery.com/event.stopImmediatePropagation/}
+   */
   /**
-     * Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.
-     * @see { https://api.jquery.com/event.stopPropagation/}
-     */
+   * Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.
+   * @see { https://api.jquery.com/event.stopPropagation/}
+   */
   /**
-     * The DOM element that initiated the event.
-     * @see { https://api.jquery.com/event.target/}
-     */
+   * The DOM element that initiated the event.
+   * @see { https://api.jquery.com/event.target/}
+   */
   /**
-     * The mouse position relative to the left edge of the document.
-     * @see { https://api.jquery.com/event.pageX/}
-     */
+   * The mouse position relative to the left edge of the document.
+   * @see { https://api.jquery.com/event.pageX/}
+   */
   var pageX: Double = js.native
   /**
-     * The mouse position relative to the top edge of the document.
-     * @see { https://api.jquery.com/event.pageY/}
-     */
+   * The mouse position relative to the top edge of the document.
+   * @see { https://api.jquery.com/event.pageY/}
+   */
   var pageY: Double = js.native
   /**
-     * For key or mouse events, this property indicates the specific key or button that was pressed.
-     * @see { https://api.jquery.com/event.which/}
-     */
+   * For key or mouse events, this property indicates the specific key or button that was pressed.
+   * @see { https://api.jquery.com/event.which/}
+   */
   var which: Double = js.native
   /**
-     * Indicates whether the META key was pressed when the event fired.
-     * @see { https://api.jquery.com/event.metaKey/}
-     */
+   * Indicates whether the META key was pressed when the event fired.
+   * @see { https://api.jquery.com/event.metaKey/}
+   */
   var metaKey: Boolean = js.native
 }
