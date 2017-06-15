@@ -1,8 +1,8 @@
 package com.definitelyscala.jquery
 
 import scala.scalajs.js
-import org.scalajs.dom.raw._
 import scala.scalajs.js.|
+import scala.scalajs.js.Promise
 
 @js.native
 trait JQueryPromise[T] extends JQueryGenericPromise[T] {
