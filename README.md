@@ -20,7 +20,7 @@ resolvers += Resolver.jcenterRepo,
 Then, add it to your SBT dependencies:
 
 ```
-libraryDependencies += "com.definitelyscala" %%% "scala-js-jquery" % "1.0.1"
+libraryDependencies += "com.definitelyscala" %%% "scala-js-jquery" % "1.0.2"
 ```
 
 Classes and traits are available in the package `com.definitelyscala.jquery`, scaladoc is provided.
